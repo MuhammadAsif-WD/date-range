@@ -1,9 +1,9 @@
 
 ``` // date ranges
 
-function App() {
+### function App() {
 
-function getDaysBetweenDates(date1, date2) {
+### function getDaysBetweenDates(date1, date2) {
     // Convert both dates to milliseconds
     const date1InMs = date1.getTime();
     const date2InMs = date2.getTime();
@@ -25,4 +25,4 @@ function getDaysBetweenDates(date1, date2) {
   return <div></div>;
 }
 
-export default App;
+### export default App;
